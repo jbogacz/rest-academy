@@ -47,7 +47,7 @@ This is an interactive learning sandbox for exploring REST APIs. The API is them
       { name: 'Reports', description: 'Financial reports and aggregated data' },
     ],
   },
-  apis: ['./src/routes/*.ts'],
+  apis: ['./src/routes/*.ts', './dist/routes/*.js'],
 };
 
 export const swaggerSpec = swaggerJsdoc(options);
